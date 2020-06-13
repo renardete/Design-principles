@@ -1,4 +1,5 @@
 import { DonationKit } from "../products/DonationKit";
+import {KitFactory} from './KitFactory'
 
 export class DonationKitFactory extends KitFactory {
     
