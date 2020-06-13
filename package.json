@@ -1,0 +1,28 @@
+{
+  "name": "design-principles",
+  "version": "1.0.0",
+  "description": "Design principles",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renardete/Design-principles.git"
+  },
+  "author": "Juan Reyes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renardete/Design-principles/issues"
+  },
+  "homepage": "https://github.com/renardete/Design-principles#readme",
+  "dependencies": {
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0"
+  }
+}
