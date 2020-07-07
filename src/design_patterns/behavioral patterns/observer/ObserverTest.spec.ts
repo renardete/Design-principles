@@ -23,4 +23,11 @@ describe('Observer pattern should',() => {
       expect(subscriber.lastDonationMade).toEqual('firstDonation')
     })
   })
+
+  test('subscribers should start be updated with the same last donation', () => {
+    donationCenter.updateLastDonation('lastDonation')
+    subscribers.forEach(subscriber => {
+      expect(subscriber.lastDonationMade).toEqual('lastDonation')
+    })
+  })
 })
